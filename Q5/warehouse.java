@@ -3,7 +3,7 @@ package Q5;
 import java.util.Arrays;
 
 public class warehouse{
-    public static void moveZeros(int[] crates) {
+    public static void demo(int[] crates) {
         int index = 0; 
         for (int num : crates) {
             if (num != 0) {
@@ -18,7 +18,7 @@ public class warehouse{
         int[] crates = {3,0,2,1,3,0};
 
         System.out.println("Crate order before sorting: " + Arrays.toString(crates));
-        moveZeros(crates);
+        demo(crates);
         System.out.println("Final arrangement of crates: " + Arrays.toString(crates));
     }
 }
